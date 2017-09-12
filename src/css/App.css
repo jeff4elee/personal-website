@@ -1,0 +1,19 @@
+.App-intro {
+  font-size: large;
+}
+
+.App-body ol{
+  display:inline-block;
+  text-align: left;  
+}
+
+.App-body{
+  text-align: center;  
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
