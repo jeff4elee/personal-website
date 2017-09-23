@@ -14,7 +14,7 @@ export default class Banner extends Component {
             height: '300',
             width: '500',
             playerVars: { // https://developers.google.com/youtube/player_parameters 
-                autoplay: 1
+                autoplay: 0
             }
         };
 
