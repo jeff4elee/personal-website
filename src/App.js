@@ -53,16 +53,18 @@ class App extends Component {
     return (
       <div>
 
-        <div>
-          <NavigationBar
-            isScrolling={this.state.isScrolling}
-          />
-        </div>
 
-        <br/>
-        <br/>
 
         <div className="App">
+
+          <div>
+            <NavigationBar
+              isScrolling={this.state.isScrolling}
+            />
+          </div>
+
+          <br />
+          <br />
 
           <ScrollableAnchor id={'home'}>
             <Banner />
@@ -73,40 +75,40 @@ class App extends Component {
 
             <ScrollableAnchor id={'about'}>
               <div>
-                <br/>
-                
+                <br />
+
                 <h1>About</h1>
               </div>
             </ScrollableAnchor>
             <AboutPage />
 
-            <br/>
-            <hr/>
-            <br/>
-          
-            
+            <br />
+            <hr />
+            <br />
+
+
             <ScrollableAnchor id={'resume'}>
               <div>
-                <br/>
+                <br />
                 <h1>Resume</h1>
               </div>
             </ScrollableAnchor>
             <ResumePage />
 
-            <br/>
-            <hr/>
-            <br/>
+            <br />
+            <hr />
+            <br />
 
             <ScrollableAnchor id={'contact'}>
               <div>
-                <br/>
+                <br />
                 <h1>Contact Info</h1>
               </div>
             </ScrollableAnchor>
             <ContactPage />
 
-            <br/>
-            <br/>
+            <br />
+            <br />
 
           </div>
 
