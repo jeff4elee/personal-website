@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor'
 import NavigationBar from './Navigation.js'
-import SearchBar from './Search.js'
 import AboutPage from './pages/AboutPage.js'
-import RoadmapPage from './pages/RoadmapPage.js'
-import MissionPage from './pages/MissionPage.js'
-import TechnicalPage from './pages/TechnicalPage.js'
+import ResumePage from './pages/ResumePage.js'
+import ContactPage from './pages/ContactPage.js'
 import Banner from './Banner.js'
 import Footer from './Footer.js'
 import './css/App.css';
@@ -61,11 +59,8 @@ class App extends Component {
           />
         </div>
 
-        <br />
-        <br />
-        <div>
-          <SearchBar />
-        </div>
+        <br/>
+        <br/>
 
         <div className="App">
 
@@ -76,25 +71,42 @@ class App extends Component {
 
           <div className="App-body">
 
-            <ScrollableAnchor id={'mission'}>
-              <div><h1>Mission</h1></div>
-            </ScrollableAnchor>
-            <MissionPage />
-
-            <ScrollableAnchor id={'roadmap'}>
-              <div><h1>Roadmap</h1></div>
-            </ScrollableAnchor>
-            <RoadmapPage />
-
             <ScrollableAnchor id={'about'}>
-              <div><h1>About</h1></div>
+              <div>
+                <br/>
+                
+                <h1>About</h1>
+              </div>
             </ScrollableAnchor>
             <AboutPage />
 
-            <ScrollableAnchor id={'technical'}>
-              <div><h1>Technical</h1></div>
+            <br/>
+            <hr/>
+            <br/>
+          
+            
+            <ScrollableAnchor id={'resume'}>
+              <div>
+                <br/>
+                <h1>Resume</h1>
+              </div>
             </ScrollableAnchor>
-            <TechnicalPage />
+            <ResumePage />
+
+            <br/>
+            <hr/>
+            <br/>
+
+            <ScrollableAnchor id={'contact'}>
+              <div>
+                <br/>
+                <h1>Contact Info</h1>
+              </div>
+            </ScrollableAnchor>
+            <ContactPage />
+
+            <br/>
+            <br/>
 
           </div>
 

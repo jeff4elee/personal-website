@@ -11,19 +11,16 @@ class NavigationBar extends Component {
             
             <Navbar className="fixed-top navigation" toggleable>
                 <NavbarToggler right  />
-                <NavbarBrand href="#home">KnowledgeTree</NavbarBrand>
+                <NavbarBrand href="#home">Home</NavbarBrand>
                     <Nav className="ml-auto" navbar>
-                        <NavItem>
-                            <NavLink href="#mission">Mission</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#roadmap">Roadmap</NavLink>
-                        </NavItem>
                         <NavItem>
                             <NavLink href="#about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#technical">Technical</NavLink>
+                            <NavLink href="#resume">Resume</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#contact">Contact</NavLink>
                         </NavItem>
                     </Nav>
             </Navbar>

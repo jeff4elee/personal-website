@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './css/Banner.css';
 import YouTube from 'react-youtube';
 
@@ -21,12 +20,11 @@ export default class Banner extends Component {
 
         return (
             <div className="banner">
-                <img src={logo} className="App-logo" alt="logo" />
-                <h1>Knowledge Tree</h1>
-                <h2>Learn anything you want, anytime you want</h2>
+                <h1>Jeffrey Lee</h1>
+                <h2>UCSD Class of 2020</h2>
                 <br />
                 <YouTube
-                    videoId="vMYVmzXNDFc"
+                    videoId="vwrvbjBF7YQ"
                     opts={opts}
                     onReady={this._onReady}
                 />
