@@ -53,13 +53,15 @@ class App extends Component {
     return (
       <div>
 
+        <div>
+          <NavigationBar
+            isScrolling={this.state.isScrolling}
+          />
+        </div>
+
         <div className="App">
 
-          <div>
-            <NavigationBar
-              isScrolling={this.state.isScrolling}
-            />
-          </div>
+
 
           <br />
           <br />

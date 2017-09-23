@@ -7,7 +7,6 @@ import './css/Navigation.css'
 class NavigationBar extends Component {
     render() {
         return (
-            <Collapse isOpen={true} navbar>
             
             <Navbar className="fixed-top navigation" toggleable>
                 <NavbarBrand href="#home">Home</NavbarBrand>
@@ -24,7 +23,6 @@ class NavigationBar extends Component {
                     </Nav>
             </Navbar>
 
-            </Collapse>
 
         );
     }

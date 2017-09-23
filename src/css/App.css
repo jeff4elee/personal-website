@@ -2,6 +2,12 @@
   font-size: large;
 }
 
+.App{
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
 .App-body{
   text-align: center;  
   margin-left: 25%;

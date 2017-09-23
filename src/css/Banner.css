@@ -1,11 +1,6 @@
 .banner {
     background-color: #222;
     height: 500px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
     color: white;
     text-align: center;
   }
