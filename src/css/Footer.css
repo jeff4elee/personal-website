@@ -3,6 +3,7 @@ footer {
     height: 70px;
     padding: 20px;
     color: white;
+    overflow: hidden;    
     text-align: center;
 }
 

@@ -3,4 +3,5 @@
     height: 500px;
     color: white;
     text-align: center;
+    overflow: hidden;    
   }
