@@ -10,7 +10,6 @@ class NavigationBar extends Component {
             <Collapse isOpen={true} navbar>
             
             <Navbar className="fixed-top navigation" toggleable>
-                <NavbarToggler right  />
                 <NavbarBrand href="#home">Home</NavbarBrand>
                     <Nav className="ml-auto" navbar>
                         <NavItem>

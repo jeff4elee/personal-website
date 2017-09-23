@@ -11,8 +11,8 @@ export default class Banner extends Component {
     render() {
 
         const opts = {
-            height: '300',
-            width: '500',
+            height: '66%',
+            width: '40%',
             playerVars: { // https://developers.google.com/youtube/player_parameters 
                 autoplay: 0
             }
@@ -20,6 +20,7 @@ export default class Banner extends Component {
 
         return (
             <div className="banner">
+                <br />
                 <h1>Jeffrey Lee</h1>
                 <h2>UCSD Class of 2020</h2>
                 <br />
