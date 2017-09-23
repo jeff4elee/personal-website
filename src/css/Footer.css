@@ -1,0 +1,34 @@
+footer {
+    background-color: #222;
+    height: 70px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer-icon {
+    max-height: 25px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+a, a:visited{
+    color: white;
+    opacity: .4;
+    text-decoration: none;    
+}
+
+a:hover { 
+    color: white;    
+    opacity: 1;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.social-container > * {
+    margin-left: 7px;
+    margin-right: 7px;
+}

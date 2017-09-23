@@ -1,0 +1,14 @@
+.App-intro {
+  font-size: large;
+}
+
+.App-body ol{
+  display:inline-block;
+  text-align: left;  
+}
+
+.App-body{
+  text-align: center;  
+  margin-left: 25%;
+  margin-right: 25%;
+}
