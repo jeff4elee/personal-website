@@ -1,11 +1,9 @@
 .about {
   text-align: left;
   padding-left: 2%;
-  font-family: sans-serif;
 }
 
 .aboutList {
-  margin-left: 20%;
+  padding-left: 20%;
   display: inline-block;
-  font-family: sans-serif;
 }
