@@ -4,7 +4,10 @@
 
 .App-body{
   text-align: center;  
-  /* padding-left: 25%;
-  padding-right: 25%; */
+  padding-left: 25%;
+  padding-right: 25%;
+  min-width: 100%;
+  right:0;
+  left:0;
   font-family: sans-serif;  
 }
