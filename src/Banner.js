@@ -23,7 +23,7 @@ export default class Banner extends Component {
                 <br />
                 <h1>Jeffrey Lee</h1>
                 <h2>UCSD Class of 2020</h2>
-                <br />
+                <p>(Warning, the video below may be loud, and also not very serious)</p>
                 <YouTube
                     videoId="vwrvbjBF7YQ"
                     opts={opts}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor'
 import NavigationBar from './Navigation.js'
 import AboutPage from './pages/AboutPage.js'
-import ResumePage from './pages/ResumePage.js'
+import ExperiencePage from './pages/ExperiencePage.js'
 import ContactPage from './pages/ContactPage.js'
 import Banner from './Banner.js'
 import Footer from './Footer.js'
@@ -86,14 +86,14 @@ class App extends Component {
             <hr />
             <br />
 
-
-            <ScrollableAnchor id={'resume'}>
+            <ScrollableAnchor id={'experience'}>
               <div>
                 <br />
-                <h1>Resume</h1>
+
+                <h1>Experience</h1>
               </div>
             </ScrollableAnchor>
-            <ResumePage />
+            <ExperiencePage />
 
             <br />
             <hr />

@@ -15,7 +15,7 @@ class NavigationBar extends Component {
                             <NavLink href="#about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#resume">Resume</NavLink>
+                            <NavLink href="#experience">Experience</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#contact">Contact</NavLink>

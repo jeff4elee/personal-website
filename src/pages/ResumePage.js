@@ -16,7 +16,7 @@ export default class ResumePage extends Component {
     render() {
       return (
         <div>
-          <PDF file={myPDF} onDocumentComplete={this.onDocumentComplete} onPageComplete={this.onPageComplete} page={this.state.page} />
+          <PDF file={myPDF} onDocumentComplete={this.onDocumentComplete} onPageComplete={this.onPageComplete} page={this.state.page} width={100}/>
         </div>
       )
     }

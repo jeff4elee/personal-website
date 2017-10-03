@@ -3,3 +3,9 @@
     color: white;
     text-align: center;
 }
+
+.navigation a{
+    color: white;
+    opacity: .4;
+    text-decoration: none;    
+}

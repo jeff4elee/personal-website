@@ -12,7 +12,7 @@ footer {
     margin-right: 8px;
 }
 
-a, a:visited{
+.social-container a{
     color: white;
     opacity: .4;
     text-decoration: none;    
